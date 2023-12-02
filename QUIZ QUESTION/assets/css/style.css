@@ -17,24 +17,20 @@ body {
   font-size: 1.3em;
   line-height: 1.5em;
 }
-
 .container {
   max-width: 640px;
   margin: 50px auto;
   background: #fff;
   padding: 20px;
   border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
-
-
-
-
-
-
 .start:hover {
   background-color: #b71e06;
 }
-
 .start{
   background-color: #ff2200;
   border: none;
@@ -42,28 +38,33 @@ body {
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  width: 20%;
   border-radius: 8px;
   transition: transform 0.5s ease;
 
 }
-.pergunta{
-  text-align: center;
-  
+.form{
+    align-items: self-start;
+    width: 100%;  
 }
 .proxima{
   background-color: #ff2200;
   border: none;
   color: #fff;
   padding: 15px 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 10px 40%;
   cursor: pointer;
   border-radius: 8px;
   transition: transform 0.5s ease;
