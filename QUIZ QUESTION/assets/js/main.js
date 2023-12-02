@@ -102,11 +102,11 @@ function esCopo() {
                         acumulador = 1
                         console.log(acumulador)
                         h.innerHTML = `acertou ${acumulador}/1`
-                        h.style.backgroundColor = '#00ff2f'
+                        h.style.color = '#00ff2f'
                     } else{
                         erros = 1
                         h.innerHTML = `errou ${erros}/1`
-                        h.style.backgroundColor = 'red'
+                        h.style.color = 'red'
                     }
                 })
             } 
