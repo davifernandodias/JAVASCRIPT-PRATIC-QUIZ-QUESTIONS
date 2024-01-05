@@ -74,7 +74,7 @@ function esCopo() {
         input4.setAttribute('name', 'question')
         input4.setAttribute('value', 'option-4')
         form.appendChild(label4)
-        label4.innerText = 'exquesa né só vapo vapo'
+        label4.innerText = 'no'
 
 
 
